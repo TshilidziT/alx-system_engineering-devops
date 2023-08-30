@@ -10,3 +10,4 @@ mv /tmp/betty /tmp/my_first_directory moves files from one directory to another
 rm /tmp/my_first_directory/betty  Deletes file betty inside the my_first_directory
 rmdir /tmp/my_first_directory to delete a directory inside another director
 cd - changes the working directory to previous one
+ls -la . .. /boot command to list all files in long format in current directory and parent directory
