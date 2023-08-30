@@ -12,3 +12,4 @@ rmdir /tmp/my_first_directory to delete a directory inside another director
 cd - changes the working directory to previous one
 ls -la . .. /boot command to list all files in long format in current directory and parent directory
 file /tmp/iamafile command to print the type of file named
+ln -s /bin/ls __ls__ command to create a symbolic link betweeen files
