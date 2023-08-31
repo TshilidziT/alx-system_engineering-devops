@@ -5,3 +5,4 @@ groups  a script that prints all the groups the current user is part of
 chown a script that changes the owner of the file
 touch a script that creates an empty file
 chmod u+x a script that adds execute permission to the owner of the file
+chmod 750 a script that adds execute permission to owner and the group ,read permission to other users, to the file
