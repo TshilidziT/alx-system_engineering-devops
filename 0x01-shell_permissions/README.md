@@ -12,3 +12,4 @@ chmod 753 a script that sets the mode of the file -rwxr-x-wx
 chmod --reference=filename other_file  to mirror permissions with new file
 chmod -R a+X  adds execute permission to all subdirectories of the current directory for owner, the group owner and all  users.
 mkdir -m 751 my_dir create new directory with specific permissions
+chgrp change of file ownership
