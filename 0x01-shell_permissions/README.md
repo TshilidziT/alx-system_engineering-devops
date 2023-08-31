@@ -10,4 +10,4 @@ chmod ugo+x a script that adds execution permission to the owner, the group owne
 chmod 007 no permission to user and group,but all permissions to other users
 chmod 753 a script that sets the mode of the file -rwxr-x-wx
 chmod --reference=filename other_file  to mirror permissions with new file
-chmod -R --reference=. .  adds execute permission to all subdirectories of the current directory for owner, the group owner and all  users.
+chmod -R a+X  adds execute permission to all subdirectories of the current directory for owner, the group owner and all  users.
