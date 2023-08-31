@@ -14,3 +14,4 @@ chmod -R a+X  adds execute permission to all subdirectories of the current direc
 mkdir -m 751 my_dir create new directory with specific permissions
 chgrp change of file ownership
 chown owner:group owner changing owner and group owner
+chown -h vincent:staff _hello symboliclink permissions
