@@ -17,3 +17,4 @@ grep -A 3 root /etc/passwd Display lines containing the pattern “root” and 3
 grep -v "bin" /etc/passwd Display all the lines in the file /etc/passwd that do not contain the pattern “bin”
 grep "^[a-zA-Z]" /etc/ssh/sshd_config Display all lines of the file /etc/ssh/sshd_config starting with a letter including capital letters
 echo "input" | perl -pe "s/A/Z/g; s/c/e/g"  Replace all characters A and c from input to Z and e respectively
+echo $input | tr -d 'cC' Create a script that removes all letters c and C from input.
