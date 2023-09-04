@@ -21,3 +21,4 @@ echo $input | tr -d 'cC' Create a script that removes all letters c and C from i
 rev
 getent | cut -d: -f1,6 | sort a script that displays all users and their home directories, sorted by users
 find . -empty -printf '%f\n'  a command that finds all empty files and directories in the current directory and all sub-directories
+find . -type f -name '*.gif' -printf '%f %s\n' | # Find all .gif
