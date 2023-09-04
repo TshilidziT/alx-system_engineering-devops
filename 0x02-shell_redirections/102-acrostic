@@ -1,2 +1,2 @@
 #!/bin/bash
-python -c "with open('acrostic.txt') as f: print(''.join(line[0] for line in f))"
+cut -c 1 | paste -s -d ''
