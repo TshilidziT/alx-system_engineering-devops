@@ -10,3 +10,4 @@ tail -n 1 filename >> filename
 find . -type f -name "*.js" -delete removes specific file types
 find . -mindepth 1 -type d | wc -l number of directories in current directories
 ls -t -A | head -n 10 displays 10 newest files in current directory from new to old
+sort | uniq -u Create a script that takes a list of words as input and prints only words that appear exactly once
