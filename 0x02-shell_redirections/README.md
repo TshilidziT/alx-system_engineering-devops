@@ -18,4 +18,5 @@ grep -v "bin" /etc/passwd Display all the lines in the file /etc/passwd that do 
 grep "^[a-zA-Z]" /etc/ssh/sshd_config Display all lines of the file /etc/ssh/sshd_config starting with a letter including capital letters
 echo "input" | perl -pe "s/A/Z/g; s/c/e/g"  Replace all characters A and c from input to Z and e respectively
 echo $input | tr -d 'cC' Create a script that removes all letters c and C from input.
-rev 
+rev
+getent | cut -d: -f1,6 | sort a script that displays all users and their home directories, sorted by users
