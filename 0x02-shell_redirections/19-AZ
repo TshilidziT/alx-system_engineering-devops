@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "input" | perl -pe "s/A/Z/g; s/c/e/g"
+echo "Replace all characters `A` and `c` from input to `Z` and `e`." | tr "Ac" "Ze"
