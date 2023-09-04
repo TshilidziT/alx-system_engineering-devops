@@ -12,3 +12,4 @@ find . -mindepth 1 -type d | wc -l number of directories in current directories
 ls -t -A | head -n 10 displays 10 newest files in current directory from new to old
 sort | uniq -u Create a script that takes a list of words as input and prints only words that appear exactly once
 grep "root" /etc/passwd Display lines containing the pattern “root” from the file /etc/passwd
+grep -c 'bin' /etc/passwd Display the number of lines that contain the pattern “bin” in the file /etc/passwd
