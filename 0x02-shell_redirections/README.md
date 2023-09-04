@@ -20,3 +20,4 @@ echo "input" | perl -pe "s/A/Z/g; s/c/e/g"  Replace all characters A and c from 
 echo $input | tr -d 'cC' Create a script that removes all letters c and C from input.
 rev
 getent | cut -d: -f1,6 | sort a script that displays all users and their home directories, sorted by users
+find . -empty -printf '%f\n'  a command that finds all empty files and directories in the current directory and all sub-directories
