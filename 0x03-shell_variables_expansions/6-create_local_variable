@@ -1,0 +1,5 @@
+#!/bin/bash
+myfunction() {
+  local myvar="Hello"
+  echo $myvar
+}
