@@ -1,5 +1,2 @@
 #!/bin/bash
-myfunction() {
-  local myvar="Hello"
-  echo $myvar
-}
+BEST=School
